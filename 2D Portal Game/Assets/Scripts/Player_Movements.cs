@@ -63,16 +63,16 @@ public class Player_Movements : MonoBehaviour
                     switch (other.transform.rotation.z)
                     {
                         case 0.7071068f:
-                            player.transform.position = new Vector2(panels[i].transform.position.x + 2, panels[i].transform.position.y);
+                            player.transform.position = new Vector2(panels[i].transform.position.x, panels[i].transform.position.y);
                             break;
                         case -0.7071068f:
-                            player.transform.position = new Vector2(panels[i].transform.position.x - 2, panels[i].transform.position.y);
+                            player.transform.position = new Vector2(panels[i].transform.position.x, panels[i].transform.position.y);
                             break;
                         case 0f:
-                            player.transform.position = new Vector2(panels[i].transform.position.x, panels[i].transform.position.y - 2);
+                            player.transform.position = new Vector2(panels[i].transform.position.x, panels[i].transform.position.y);
                             break;
                         case 1f:
-                            player.transform.position = new Vector2(panels[i].transform.position.x, panels[i].transform.position.y + 2);
+                            player.transform.position = new Vector2(panels[i].transform.position.x, panels[i].transform.position.y);
                             break;
                     }
                     
@@ -91,16 +91,16 @@ public class Player_Movements : MonoBehaviour
                     switch (other.transform.rotation.z)
                     {
                         case 0.7071068f:
-                            player.transform.position = new Vector2(panels[i].transform.position.x + 2, panels[i].transform.position.y);
+                            player.transform.position = new Vector2(panels[i].transform.position.x, panels[i].transform.position.y);
                             break;
                         case -0.7071068f:
-                            player.transform.position = new Vector2(panels[i].transform.position.x - 2, panels[i].transform.position.y);
+                            player.transform.position = new Vector2(panels[i].transform.position.x, panels[i].transform.position.y);
                             break;
                         case 0f:
-                            player.transform.position = new Vector2(panels[i].transform.position.x, panels[i].transform.position.y - 2);
+                            player.transform.position = new Vector2(panels[i].transform.position.x, panels[i].transform.position.y);
                             break;
                         case 1f:
-                            player.transform.position = new Vector2(panels[i].transform.position.x, panels[i].transform.position.y + 2);
+                            player.transform.position = new Vector2(panels[i].transform.position.x, panels[i].transform.position.y);
                             break;
                     }
                     in_velocity = player.velocity;

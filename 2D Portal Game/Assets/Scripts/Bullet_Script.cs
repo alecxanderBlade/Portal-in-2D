@@ -21,7 +21,8 @@ public class Bullet_Script : MonoBehaviour
         if(other.tag != "Static_Wall")
         {
             other.GetComponent<SpriteRenderer>().color = this_color;
-            Destroy(this_);
+            other.GetComponent<Collider2D>().enabled = false;
         }
+        Destroy(this_);
     }
 }

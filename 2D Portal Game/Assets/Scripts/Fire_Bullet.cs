@@ -5,12 +5,6 @@ using UnityEngine;
 public class Fire_Bullet : MonoBehaviour
 {
     public GameObject Orange_Bullet, Blue_Bullet;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {

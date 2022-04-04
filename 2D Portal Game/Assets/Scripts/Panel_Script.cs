@@ -26,6 +26,7 @@ public class Panel_Script : MonoBehaviour
                 {
                     panels[i].color = Color.white;
                 }
+                //panels[i].GetComponent<Collider2D>().enabled = true;
             }
         }
     }
